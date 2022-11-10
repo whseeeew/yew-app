@@ -1,0 +1,12 @@
+# App Stats
+[package]
+name = "yew-app"
+version = "0.1.0"
+edition = "2021"
+
+# その他のキーとその定義については、以下をご覧ください
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 依存するライブラリ一覧
+yew = { git = "https://github.com/yewstack/yew/" }
